@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="id" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontak | Ahmad Samsu Yusa</title>
+  <meta name="description" content="Hubungi Ahmad Samsu Yusa untuk kolaborasi produksi, siaran kegiatan, atau diskusi seputar media.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("asy-theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") {
+        t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-bs-theme", t);
+    })();
+  </script>
+</head>
+<body>
+<a class="visually-hidden-focusable position-absolute p-2" href="#main">Lompat ke konten</a>
+<div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<nav class="navbar navbar-expand-lg sticky-top site-nav" aria-label="Navigasi utama">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><span class="brand-mark">ASY</span><span>PORTOFOLIO</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Buka menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1 mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li><li class="nav-item"><a class="nav-link" href="about.html">Tentang</a></li><li class="nav-item"><a class="nav-link" href="pengalaman.html">Pengalaman</a></li><li class="nav-item"><a class="nav-link" href="blog.html">Portofolio</a></li><li class="nav-item"><a class="nav-link" href="sertifikat.html">Sertifikat</a></li><li class="nav-item"><a class="nav-link active" href="kontak.html" aria-current="page">Kontak</a></li>
+      </ul>
+      <button class="btn btn-line btn-sm ms-lg-3" id="themeToggle" type="button" aria-pressed="false">Mode gelap</button>
+    </div>
+  </div>
+</nav>
+<main id="main">
+
+<section class="page-head">
+  <div class="container">
+    <p class="eyebrow">Kontak</p>
+    <h1>Mari berbincang</h1>
+    <p class="lede mb-0">Untuk kolaborasi produksi, kebutuhan siaran kegiatan, atau diskusi seputar media dan komunikasi.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row gy-5 gx-lg-5">
+      <div class="col-lg-5">
+        <h2 class="section-title">Cara menghubungi</h2>
+        <div>
+          <div class="contact-line"><span class="k">Email</span><a class="v" href="mailto:ahmadsamsuyu@gmail.com"><span id="contactEmailShown">ahmadsamsuyu@gmail.com</span></a></div>
+          <div class="contact-line"><span class="k">HP dan WhatsApp</span><a class="v" href="https://wa.me/6282254449383" target="_blank" rel="noopener">082254449383</a></div>
+          <div class="contact-line"><span class="k">Instagram</span><a class="v" href="https://www.instagram.com/_samsuyu_/" target="_blank" rel="noopener">@_samsuyu_</a></div>
+          <div class="contact-line"><span class="k">Portofolio</span><a class="v" href="https://drive.google.com/drive/folders/1Y8DT9pfz2hjm5dQcO0zQuTZfLa22p1qF?usp=sharing" target="_blank" rel="noopener">Folder Google Drive</a></div>
+          <div class="contact-line"><span class="k">Domisili</span><span class="v">Ponorogo</span></div>
+          <div class="contact-line"><span class="k">Unit</span><span class="v">Multimedia UNIDA Gontor</span></div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="card"><div class="card-body p-4 p-md-5">
+          <h2 class="h4 mb-4">Tulis pesan</h2>
+          <form id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label" for="nama">Nama</label>
+                <input class="form-control" id="nama" name="nama" type="text" autocomplete="name" required>
+                <div class="invalid-feedback">Isi nama Anda.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="email">Email Anda</label>
+                <input class="form-control" id="email" name="email" type="email" autocomplete="email" required>
+                <div class="invalid-feedback">Isi alamat email yang valid.</div>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="topik">Topik</label>
+                <select class="form-select" id="topik" name="topik">
+                  <option>Kolaborasi</option>
+                  <option>Siaran atau produksi</option>
+                  <option>Desain dan publikasi</option>
+                  <option>Riset dan tulisan</option>
+                  <option>Lainnya</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="pesan">Pesan</label>
+                <textarea class="form-control" id="pesan" name="pesan" rows="5" required></textarea>
+                <div class="invalid-feedback">Tulis pesan Anda.</div>
+              </div>
+              <div class="col-12 d-flex flex-wrap align-items-center gap-3">
+                <button class="btn btn-accent" type="submit">Buat email</button>
+                <span class="text-muted-2 small" id="contactNote" role="status">Tombol ini membuka aplikasi email Anda dengan pesan yang sudah terisi.</span>
+              </div>
+            </div>
+          </form>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-5">
+        <p class="mb-1 fw-bold" style="font-family:var(--f-display);font-size:1.2rem">Ahmad Samsu Yusa</p>
+        <p class="text-muted-2 mb-0" style="max-width:40ch">Mahasiswa Ilmu Komunikasi UNIDA Gontor. Broadcasting, desain publikasi, dan jurnalistik.</p>
+      </div>
+      <div class="col-6 col-md-3">
+        <p class="small-mono text-uppercase mb-2">Halaman</p>
+        <ul><li><a href="index.html">Beranda</a></li><li><a href="about.html">Tentang</a></li><li><a href="pengalaman.html">Pengalaman</a></li><li><a href="blog.html">Portofolio</a></li><li><a href="sertifikat.html">Sertifikat</a></li><li><a href="kontak.html">Kontak</a></li></ul>
+      </div>
+      <div class="col-6 col-md-4">
+        <p class="small-mono text-uppercase mb-2">Unit</p>
+        <p class="text-muted-2 mb-0">Multimedia UNIDA Gontor, Ketua 2026.</p>
+      </div>
+    </div>
+    <hr style="border-color:var(--line)" class="my-4">
+    <p class="small-mono mb-0">Diperbarui 1 November 2026</p>
+  </div>
+</footer>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

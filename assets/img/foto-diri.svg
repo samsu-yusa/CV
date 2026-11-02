@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Tempat foto diri">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F3B28"/>
+      <stop offset="1" stop-color="#0A7A47"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <g fill="none" stroke="#3FD088" stroke-opacity="0.22" stroke-width="2">
+    <circle cx="400" cy="430" r="120"/>
+    <circle cx="400" cy="430" r="200"/>
+    <circle cx="400" cy="430" r="280"/>
+    <circle cx="400" cy="430" r="360"/>
+  </g>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-weight="800" font-size="190" fill="#FFFFFF" letter-spacing="-6">ASY</text>
+  <text x="400" y="880" text-anchor="middle" font-family="Courier New, monospace" font-size="26" fill="#FFFFFF" fill-opacity="0.8" letter-spacing="3">GANTI DENGAN FOTO DIRI</text>
+  <text x="400" y="920" text-anchor="middle" font-family="Courier New, monospace" font-size="22" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="2">assets/img/foto-diri.jpg</text>
+</svg>
